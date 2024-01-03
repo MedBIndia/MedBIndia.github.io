@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Medb</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,12 +16,10 @@
         <link rel="stylesheet" href="first.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+    
     </head>
-
     <body>
-        <header>
-        <nav class="navbar navbar-expand-lg  relative-top shadow-lg">
+        <nav class="navbar navbar-expand-lg shadow-lg">
             <div class="container-fluid">
                 <a class="brands" href="#"><img class="logo" src="images/LOGO.png"></a>
                 <div class="navbar-header">
@@ -30,7 +28,7 @@
                     </button>
                     
                 </div>
-                <form class="d-flex">
+            
                     <div class="collapse navbar-collapse" id="navbarText">      
                         <ul class="navbar-nav">
                             <li class="nav-item active">
@@ -49,64 +47,68 @@
                             </li>
                         </ul>
                     </div>
-                </form>    
             </div>
         </nav>
-       </header>
         <main>
-            <section class="hero" id="hero">
+            <section class="hero">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="container p-5 my-5 ">
-                                <h1 class="1h1" style="color: #0f2167 ;">"Bringing <span class="sp1" style="color: #ffc436;">Healthcare</span> to Your Fingertips"</h1>
-                                <p class="">Book Doctors Appointments Online With Easy <br><span class="sp2">Your Well-being, Our Priority</span></p>
-                                <button class="btn1" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Book Appointment</button>            
-                            </div>            
-                            <div class="heroText d-flex flex-column justify-content-right">    
-                                <img src="images/first.png">
-                            </div>
+                    <div class="row" style="height: 600px;">
+                        <div class="col-lg-7 col-md  col-sm-10 col-12">
+                            <h2 style="text-align: center;" class="1h1" style="color: #0f2167 ;">"Bringing <span class="sp1" style="color: #ffc436;">Healthcare</span> to Your Fingertips"</h6>
+                            <p style="text-align: center;" class="para">Book Doctors Appointments Online With Easy <br><span class="sp2">Your Well-being, Our Priority</span></p>
+                            <p style="text-align: center; "><button class="btn1" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Book Appointment</button></p>
+                        </div>
+                        <div class="col-lg-5 col-md  col-sm-2 col-12">
+                                <img class="img-fluid" src="images/first.png">
                         </div>
                     </div>
                 </div>
             </section>
-            <div class="modal fade" id="myModal">
+
+            <div class="modal" id="myModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="Box" style="height: 450px;">
+                        <div class="Box">
                             <h3 class="styleh3" style="text-align: center; margin-top: 50px;">Make an Appointment</h3>
-                            <form class="form1" style="margin-top: 50px;  padding-left: 120px;">
-                                <input class="inputs" type="text" placeholder="Enter Your Name:"><br><br>
-                                <input  class="inputs" type="number" placeholder="Enter Your Phone:"><br><br>
-                                <textarea  class="area">Your message</textarea><br><br>
-                                <button class="btn btn-success">Book Now</button>
-                            </form>
+                            <form>
+                                <div class="form-check">
+                                  <input class="form-control" type="text" placeholder="Enter Your Name:"><br><br>
+                                </div>
+                                <div class="form-check">
+                                    <input  class="form-control" type="number" placeholder="Enter Your Phone:"><br><br>
+                                </div>
+                                <div class="form-check">
+                                    <textarea  class="form-control">Your message</textarea><br><br>
+                                </div>
+                                <p style="text-align: center;"><button type="submit" class="btn btn-success">Book Now</button></p>
+                              </form>
                         </div>
                     </div> 
                 </div>
             </div>
-            <section class="about" id="about">
+            <section class="about" id="about" >
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-5 col-12 mx-auto">
-                            <img class="sec" src="images/sec1.jpeg">
+                            <img class="sec" src="images/pic1.png">
                         </div>
-
                         <div class="col-lg-6 col-md-6 col-12">
                             <h1 class="mb-lg-3 mb-3">ABOUT US</h1>
                             <h3 class="bringing">Bringing Healthcare To Your Fingertips</h3><br>
-                            <p>Protect yourself and others by wearing masks and washing hands frequently. Outdoor is safer than indoor for gatherings or holding events. People who get sick with Coronavirus disease (COVID-19) will experience mild to moderate symptoms and recover without special treatments.</p>
+                            <p>Virtual Consultations: Mobile apps enable users to connect with healthcare professionals through video calls, allowing for remote consultations and diagnosis.
+                                Prescription Management: Some apps facilitate online prescription requestsWearable Technology: Smartwatches and fitness trackers can monitor various health metrics, such as heart rate, sleep patterns, and physical activity, providing users with real-time feedback.
+                                Smart Health Devices: Devices like blood pressure monitors, glucose meters, and thermometers can connect to mobile apps, allowing users to track and manage,Mobile Health Apps: Applications provide information on symptoms, diseases, medications, and general health advice, empowering users to make informed decisions about their well-being.
+                                Health Tracking: Apps can help users keep track of their health data, such as diet, exercise, and medication adherence.</p>
                         </div>
-
                     </div>
                 </div>
             </section>
             <h1 class="service">OUR SERVICES</h1>
             <section class="about">     
-                <div class="container">
+                <div class="container-fluid">
                     <div class="cards">
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="card">
                                     <img src="images/card1.webp"class="card-img-top" alt="rem">
                                     <div class="card-body">
@@ -116,7 +118,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="card">
                                     <img src="images/card2.webp" alt="rem">
                                     <div class="card-body">
@@ -126,7 +128,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="card">
                                     <img src="images/card3.webp"alt="rem">
                                     <div class="card-body">
@@ -140,42 +142,133 @@
                     </div>                
                 </div>
             </section>
-            <h1 class="service">CLIENT TESTIMONIALS</h1>
-            <section class="scrolling" id="reviews">
-                    <div class="outer">        
-                        <div class="card">
-                            <div class="card-body">
-                                <img class="reviewer" src="images/client.jpg">
-                                <h3 class="card-head">Marry Jacob</h3></a>
-                                <p class="card-para">On the and dislike men who are so beguiled and debr
-                                    <br> by the charms of pleasure of the moment, 
-                                    so blinded by dd every pain avoided. </p>
+            <section class="carousal">
+                <div class="container">
+                    <div id="carouselExampleControls" class="carousel">
+                        <h1 class="service">CLIENT TESTIMONIALS</h1>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                        <div class="wave">
+                                            <svg viewBox="0 0 500 200">
+                                                <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                            </svg>
+                                            <img class="reviewer" src="images/client.jpg">
+                                            <h6 class="clients">Mary Jacob</h6>
+                                            <div class="client-div">
+                                                <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <p class="card-text">I love how MedB shows me all the doctors and clinics near me, so I can choose the best one for my needs. The app's online booking feature is a lifesaver, and I appreciate the transparency it provides.</p>
+                                    <div class="wave">
+                                        <svg viewBox="0 0 500 200">
+                                            <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0 " fill="white"></path>
+                                        </svg>
+                                        <img class="reviewer" src="images/client.jpg">
+                                        <h6 class="clients">Mary Jacob</h6>
+                                        <div class="client-div">
+                                            <img class="client-icons"  src="images/insta.png">&nbsp;&nbsp;<img class="client-icons"  src="images/watsapp.png"><img id="client-twit" src="images/Twit.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <img class="reviewer" src="images/client.jpg">
-                                <h3 class="card-head">Marry Jacob</h3></a>
-                                <p class="card-para">On the and dislike men who are so beguiled and debr
-                                    <br> by the charms of pleasure of the moment, 
-                                    so blinded by dd every pain avoided. </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <img class="reviewer" src="images/client.jpg">
-                                <h3 class="card-head">Marry Jacob</h3></a>
-                                <p class="card-para">On the and dislike men who are so beguiled and debr
-                                    <br> by the charms of pleasure of the moment, 
-                                    so blinded by dd every pain avoided. </p>
-                            </div>
-                        </div> 
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="background-color: #0f2167;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="background-color: #0f2167;">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
+                </div>
             </section>
+            
             <section class="site-footer section-padding" id="contact">
                 <div class="container">
                     <div class="row">
-                        <img class="logos" style="width: 150px; height:60px;" src="images/LOGO.png">
+                        <img class="logos" src="images/LOGO.png">
                         <div class="col-lg-3 me-auto col-12">
                             <h6 class="mb-lg-4 mb-3">HOME</h6>
                             <h6 class="mb-lg-4 mb-3">FEATURES</h6>
@@ -189,7 +282,7 @@
                             <p><img class="icons" src="images/ph.webp">  835654536546</p>
                             <p><img class="icons" src="images/ph.webp">  6578569879568</p>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-12 ms-auto">
+                        <div class="col-lg-4 col-md-6 col-12 ms-auto">
                             <h4 class=" mb-2">Subscribe to Newsletter</h4>
                             <div ><input class="input" type="email" placeholder="Email Address"><button id="btn"><i class="material-icons">&#xe163;</i></button></div>
                             <h6 class=" mb-2">Follow Us</h6>
@@ -199,7 +292,6 @@
                 </div>
             </section>
         </main>
-        <!-- <footer> -->
         <footer class="site-footer" id="contact">
             <div class="container">
                 <div class="row">
@@ -209,10 +301,10 @@
                     <div class="col-lg-4 col-md-6 col-12 my-4 my-lg-0">
                         <p class="text">Privacy Policy</p>
                     </div>
-
                     <div class="fixed-bottom">
                         <a href="https://wa.me/919539176393"><img class="watsapp" style="float: right;" src="images/watsapp.png"></a>
                     </div>
+
                 </div>
             </div>
         </footer>
@@ -226,5 +318,11 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="js/jquery.min.js"></script>
+        <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/first.js"></script>
     </body>
 </html>

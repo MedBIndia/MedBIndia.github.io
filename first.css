@@ -1,63 +1,93 @@
+body{
+  background: linear-gradient(rgba(185, 206, 255, 0.65), rgba(207, 221, 255, 0.28)) ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .logo{
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 92.32px;
    
 }
 
-.brands{
-  background-color: white;
-}
 .navbar{
-    background-color: rgb(79, 54, 144);
+  background: linear-gradient(0.25turn, rgba(255, 255, 255, 1), rgba(54, 48, 98, 1),rgba(54, 48, 98, 1));
 }
 
 .nav-link{
     color: white;
- 
+  
+}
+
+
+.container {
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+.col-lg-7 {
+  float: left;
+  box-sizing: border-box; 
+}
+
+
+
+
+.navbar-nav{
+  margin-left: 701px;
 }
 
 .first{
     padding-left: 50%;
 }
 
+.col-lg-7{
+  padding-top: 110px;
+}
+
+.col-lg-5{
+  position: relative;
+}
+
 .hero {  
-padding-top: 0px;
 background-image: url('images/plus.jpeg');
 background-repeat: no-repeat;
 background-attachment: relative;
+
 }
 
 .hero .container {
-position: relative;
-overflow: hidden;
-height: 580px;
+  height: 700px;
+  
 }
 
-.heroText {
-background: var(--white-color);
-position: absolute;
-z-index: 2;
-bottom: 0;
-right: 0;
-padding: 1.5rem 2.5rem;
-width: 50%;
+.img-fluid {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  max-width: 100%;
+  height: auto; 
+  display: block;
+  margin: 0 auto;
 }
+  
 
+.modal-dialog{
+  width: 90%;
+  height: 60px;
+  padding: auto;
+  margin: auto;
+}
+  
 .mt{
     padding-top: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 
 }
-
-.para1{
-  padding-left: 15%;
+.wave {
+  background-color: rgb(79, 54, 144);
+  height: 200px;
  
-}
-
-.sp2{
-  padding-left: 5%;
-
 }
 
 .btn1{
@@ -65,67 +95,128 @@ width: 50%;
     height: 50px;
     width: 180px;
     color: white;
-    margin-left: 20%;
     margin-top: 100px;
     border-radius: 7px;
 }
 
 .sec{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 350px;
 }
 
 .about{
-    margin-top: 5%;
+    margin-top: 0%;
+    padding: 0px;
+    
 }
 
 .service{
     text-align: center;
     margin-top: 5%;
+    
 }
 
-.scrolling{
-	margin-top: 40px;
+.carousel-inner {
+  padding: 1em;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .reviewer{
-	height: 80px;
-	width: 80px;
-	float: left;
-	border-radius: 50px;
+  height: 63px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
 }
 
-.card-head{
-	float: left;
-	padding-left: 150px;
-	padding-top: 40px;
+.clients{
+  color: white;
+  text-align: center;
+  font-size: small;
 }
 
-.card-para{
-	padding-top: 100px;
-	font-size: medium;
+.client-div{
+  background-color: white;
+  margin: auto;
+  width: 70px;
+  border-radius: 24px;
+  padding-left: 15px;
+  
+  
 }
 
-.outer {
-    height: 300px;
-    white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-	padding-top: 30px;
+.client-icons{
+  height: 10px;
+  width: 10px;
+  gap: 131px;
 }
 
-.outer .card {
-    width: 700px;
-    background-color:#eee;
-    float: none;
-    height: 90%;
-    margin-left: 80px;
-    display: inline-block;
-	border-radius: 20px;
-
-	
+#client-twit{
+  height: 12px;
+  width: 21px;
+  gap: 131px;
 }
+
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+
+}
+
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-height: 100%;
+}
+
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
+
+
+.carousal{
+  height: 700px;
+  margin-top: 100px;
+  padding-top: 40px;
+  background-color: rgba(221, 232, 255, 1);
+}
+
+.card-text{
+  padding: 2rem;
+  font-size: small;
+}
+
 
 .client{
 	text-align: center;
@@ -158,43 +249,42 @@ footer{
 #btn{
 	border: 0px solid;
 	border-radius: 0px;
-	height: 29px;
+	height: 49px;
+  width: 50px;
+  background-color: rgba(25, 81, 166, 1);
 }
+
+.logos{
+  height: 60px;
+  width: 150px;
+  margin-left: -90px;
+  margin-top: -60px;
+}
+
+.material-icons{
+  rotate: -6.47 deg;
+}
+
 
 .input{
 	border: 0px;
 	font-size: smaller;
-    height: 30px;
-    float: left;
+  height: 49px;
+  float: left;
+  width: 280px;
+
 }
 
 .watsapp{
 	height: 40px;
 	width: 40px;
+  margin-bottom: 15px;
+  margin-right: 10px;
    
 }
 
-/*
-
-TemplateMo 566 Medic Care
-
-https://templatemo.com/tm-566-medic-care
-
-*/
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
 
---primary-color:                #247cff;
---section-bg-color:             #F9F9F9;
---dark-color:                   #000000;
---title-color:                  #565758;
---p-color:                      #717275;
---border-color:                 #eaeaea;
-
---body-font-family:             'Open Sans', sans-serif;
 
 --h1-font-size:                 40px;
 --h2-font-size:                 30px;
@@ -288,8 +378,8 @@ color: var(--primary-color);
 }
 
 .section-padding {
-padding-top: 7rem;
-padding-bottom: 7rem;
+padding-top: 4rem;
+padding-bottom: 4rem;
 }
 
 /*---------------------------------------
@@ -303,8 +393,9 @@ LIST GROUP
 
 .navbar-nav .nav-link {
 color: white;
-font-weight: var(--font-weight-semibold);
-font-size: var(--menu-font-size);
+font-weight: 600;
+font-size: 18px;
+font-family: var(--p-font-size);
 padding-top: 15px;
 padding-bottom: 15px;
 }
@@ -324,21 +415,209 @@ color: white;
 /*---------------------------------------
 RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (min-width: 1500px) {
-.hero .container {
-    height: 740px;
-}
+@media (max-width: 1204px) {
+  .navbar-nav{
+    margin-left: 500px;
+  }
+
+  
+
 }
 
 
-@media screen and (max-width: 991px) {
+@media (max-width: 1004px) {
+  .reviewer{
+    height: 63px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+  }
+
+  .col-lg-5{
+    width: 50%;
+    margin-left: 50%;
+  }
+  
+  .img-fluid{
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+    margin-bottom: -10px;  
+  }
+
+  .navbar-nav{
+    margin-left: 0px;
+  }
+
+
+}
+
+@media (max-width: 568px) {
+  .img-fluid{
+    position: relative;
+    right: -10px;
+    bottom: 0;
+    max-width: 100%;
+    padding: 5rem;
+  
+  }
+
+}
+
+@media (max-width: 712px) and (min-width: 540px) {
+  .hero .container {
+    height: inherit;
+  }
+
+  .col-lg-5{
+    width: 50%;
+    margin-left: 50%;
+  }
+  
+  .img-fluid{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    margin-bottom: 0px;
+   
+  
+  }
+
+  .reviewer{
+    height: 63px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+  }
+
+
+
+}
+
+@media (max-width: 740px){
+ 
+  .col-lg-5{
+    width: 50%;
+    margin-left: 50%;
+  }
+  
+  .img-fluid{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    margin-bottom: 0px; 
+  
+  }
+
+}
+
+@media (max-width: 430px){
+ 
+  .col-lg-5{
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .img-fluid{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    margin-bottom: 0px;
+  }
+
+
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+ 
+  .col-lg-5{
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  .img-fluid{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    margin-bottom: 0px;
+   
+  
+  }
+
+  .watsapp{
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+     
+  }
+
+  .card{
+    margin: 1rem;
+  }
+
+}
+
+@media (max-width: 768px){
+  .col-lg-7{
+    padding-top: 30px;
+  }
+
+
+  .btn1{
+    bottom: 300px;
+    left: 0px;
+
+  }
+
+  .col-lg-5{
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  .img-fluid{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    margin-bottom: -80px;
+    padding: 5rem;
+  
+  }
+
+  .reviewer{
+    height: 63px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+  }
+
+  .navbar-nav{
+    margin-left: 0px;
+  }
+
+  .card{
+    margin: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 540px){
     
     h1 {
       font-size: 38px;
     }
   
     h2 {
-      font-size: 32px;
+      font-size: 30px;
     }
   
     h3 {
@@ -356,32 +635,59 @@ RESPONSIVE STYLES
     h6 {
       font-size: 18px;
     }
-  
-    .section-padding {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+    p{
+      font-size: smaller;
     }
-  
+
+    .watsapp{
+      height: 30px;
+      width: 30px;
+      margin-right: 80px;
+      margin-bottom: 10px;
+       
+    }
    
     .navbar-nav .nav-link {
       padding-top: 5px;
       padding-bottom: 10px;
+      font-family: Poppins;
     }
   
+    .sec{
+      height: auto;
+    }
+
     .hero .container {
       height: inherit;
     }
-  
-    .heroText {
+
+    
+    .img-fluid{
       position: relative;
-      bottom: 100px;
-      left: 0;
-      width: auto;
+      bottom: 40px;
+      left: 60px;
       margin-bottom: -100px;
       padding: 2rem;
+    
     }
-  
-  
+
+    .navbar-nav{
+      margin-left: 10px;
+    }
+
+    .reviewer{
+      height: 63px;
+      width: 60px;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -100px;
+    }
+
+    .card{
+      margin: 1rem;
+    }
   }
   
   
